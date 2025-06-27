@@ -1,0 +1,20 @@
+spring.application.name=SpringSecurityEx
+server.port=8080
+#jpa properties
+spring.jpa.hibernate.ddl-auto=update
+
+spring.datasource.url=jdbc:mysql://localhost:3306/dbName
+spring.datasource.username=username
+spring.datasource.password=Password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql=true
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+
+spring.security.user.name=aman // for single user authentication
+spring.security.user.password=aman
+
+// auth using github
+spring.security.oauth2.client.registration.github.client-id=ClientId
+spring.security.oauth2.client.registration.github.client-secret=ClientSecret
